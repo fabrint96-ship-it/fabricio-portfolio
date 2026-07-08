@@ -1,13 +1,23 @@
-import { projects } from "../../data/projects"
+import { useEffect, useState } from "react"
+import { getProjects } from "../../lib/api"
+import { projects as fallbackProjects } from "../../data/projects"
 
 function ProjectsSection() {
+  const [projects, setProjects] = useState(fallbackProjects)
+
+  useEffect(() => {
+    getProjects().then((data) => {
+      if (data.length > 0) setProjects(data)
+    })
+  }, [])
+
   return (
     <section id="proyectos" className="section">
       <h2>Proyectos destacados</h2>
 
       <div className="projects-grid">
         {projects.map((project) => (
-          <article className="project-card" key={project.title}>
+          <article className="project-card" key={project.id ?? project.title}>
             <span>{project.type}</span>
             <h3>{project.title}</h3>
             <p>{project.description}</p>
