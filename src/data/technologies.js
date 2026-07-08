@@ -1,0 +1,18 @@
+export const technologies = [
+  "Linux",
+  "Windows Server",
+  "Active Directory",
+  "Redes",
+  "Virtualización",
+  "Docker",
+  "Git",
+  "GitHub",
+  "Supabase",
+  "SQL",
+  "React",
+  "JavaScript",
+  "Kotlin",
+  "Android",
+  "Unity",
+  "C#",
+]
