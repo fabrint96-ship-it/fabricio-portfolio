@@ -258,3 +258,25 @@ a {
 .timeline-card p {
   color: #cbd5e1;
   line-height: 1.6;
+}
+
+.project-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  padding: 9px 14px;
+  border-radius: 999px;
+  background: #020617;
+  color: #38bdf8;
+  border: 1px solid #334155;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.project-links a:hover {
+  border-color: #38bdf8;
+}

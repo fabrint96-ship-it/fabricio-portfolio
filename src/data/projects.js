@@ -5,7 +5,7 @@ export const projects = [
     description:
       "Aplicación Android para registrar inmersiones, ubicaciones, fotografías y detalles técnicos, desarrollada con Kotlin, Room y Supabase.",
     technologies: ["Kotlin", "Android", "Room", "Supabase", "MapLibre"],
-    github: "",
+    github: "https://github.com/fabrint96-ship-it/DiveLog",
     demo: "",
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     description:
       "Videojuego desarrollado en Unity con mundo abierto, duelos tipo puzzle y estética inspirada en la España de los años 70.",
     technologies: ["Unity", "C#", "Game Design"],
-    github: "",
+    github: "https://github.com/fabrint96-ship-it/ModuleZ",
     demo: "",
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     description:
       "Proyecto de videojuego modular basado en construcción con pieza Z, niveles, sistemas de audio, VFX y arquitectura profesional.",
     technologies: ["Unity", "C#", "Procedural Generation"],
-    github: "",
+    github: "https://github.com/fabrint96-ship-it/ProjectZ",
     demo: "",
   },
 ]
