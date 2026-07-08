@@ -12,11 +12,16 @@ function HeroSection() {
       <p className="headline">{profile.headline}</p>
 
       <div className="hero-actions">
-        <a href={profile.github} target="_blank" rel="noreferrer">
-          Ver GitHub
+        <a href={profile.cv} download>
+            Descargar CV
         </a>
-        <a href={`mailto:${profile.email}`}>Contactar</a>
-      </div>
+
+        <a href={profile.github} target="_blank" rel="noreferrer">
+            GitHub
+        </a>
+
+        <a href={`mailto:${profile.email}`}>Contacto</a>
+       </div>
     </section>
   )
 }

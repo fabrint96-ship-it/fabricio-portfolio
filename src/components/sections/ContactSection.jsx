@@ -12,8 +12,13 @@ function ContactSection() {
 
       <div className="hero-actions">
         <a href={`mailto:${profile.email}`}>Enviar email</a>
+
+        <a href={profile.cv} download>
+            Descargar CV
+        </a>
+
         <a href={profile.github} target="_blank" rel="noreferrer">
-          GitHub
+            GitHub
         </a>
       </div>
     </section>
